@@ -31,6 +31,25 @@ body {
   background: #919da4;
 }
 
+.scroll-bar-transparent {
+  scrollbar-color: transparent transparent;
+}
+
+.scroll-bar-transparent ::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+  background: transparent;
+}
+
+.scroll-bar-transparent ::-webkit-scrollbar-thumb {
+  background: transparent;
+  -webkit-border-radius: 0px;
+}
+
+.scroll-bar-transparent ::-webkit-scrollbar-corner {
+  background: 0px;
+}
+
 .card-cut-primary, .card-cut-variant {
   background-image: linear-gradient(-135deg, #3a5463 95%, rgba(118, 64, 64, 0) 1%);
   border-radius: 1px;
@@ -431,6 +450,25 @@ source: https://cssloaders.github.io/
 
 .scroll-bar-style ::-webkit-scrollbar-corner, .card-cut-primary ::-webkit-scrollbar-corner, .card-cut-variant ::-webkit-scrollbar-corner, html ::-webkit-scrollbar-corner {
   background: #919da4;
+}
+
+.scroll-bar-transparent {
+  scrollbar-color: transparent transparent;
+}
+
+.scroll-bar-transparent ::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+  background: transparent;
+}
+
+.scroll-bar-transparent ::-webkit-scrollbar-thumb {
+  background: transparent;
+  -webkit-border-radius: 0px;
+}
+
+.scroll-bar-transparent ::-webkit-scrollbar-corner {
+  background: 0px;
 }
 
 .card-cut-primary, .card-cut-variant {

@@ -17,6 +17,22 @@
     }
 }
 
+.scroll-bar-transparent {
+  scrollbar-color: transparent transparent ;
+  ::-webkit-scrollbar {
+      height: 0px;
+      width: 0px;
+      background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+      background: transparent;
+      -webkit-border-radius: 0px;
+  }
+  ::-webkit-scrollbar-corner {
+      background: 0px;
+  }
+}
+
 .card-cut-primary {
     background-image: linear-gradient(-135deg, $primary 95%, rgba(118, 64, 64, 0) 1%);
     border-radius: 1px;
