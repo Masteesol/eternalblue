@@ -23,7 +23,9 @@
 <body class="font-regular">
   <div name="container" class="" style="width: 100vw; min-height: 100vh;">
     <div name="gradient-overlay" class="w-100 position-absolute bg-gradient" style="min-height: 100vh; z-index: 2000; opacity: 0.9;"></div>
-    <div name="texture-overlay" id="texture-overlay" class="w-100 position-absolute" style="min-height: 100vh; z-index: 3000;"></div>
+    <div class="position-absolute w-100 overflow-hidden" style="height: 100vh; z-index: 3000">
+      <div name="texture-overlay position-relative" id="texture-overlay" style="height: 100vh;"></div>
+    </div>
     <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" style="z-index: 4000">
       <div class="carousel-indicators position-fixed" style="bottom: 1.2rem;">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="text-white text-center active mx-3" aria-current="true" aria-label="Slide 1" style="text-indent: 0px; width: fit-content">
