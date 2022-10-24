@@ -631,6 +631,13 @@ section {
   width: 100%;
 }
 
+#texture-overlay {
+  background-image: url("../assets/images/bg-layer.png");
+  background-size: 120%;
+  background-position: center;
+  opacity: 0.2;
+}
+
 @media (max-width: 575.98px) {
   .home.heading h2 {
     font-size: 0.8rem;

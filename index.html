@@ -22,7 +22,8 @@
 </head>
 <body class="font-regular">
   <div name="container" class="" style="width: 100vw; min-height: 100vh;">
-    <div name="gradient-overlay" class="w-100 position-absolute bg-gradient" style="min-height: 100vh; z-index: 3000; opacity: 0.9;"></div>
+    <div name="gradient-overlay" class="w-100 position-absolute bg-gradient" style="min-height: 100vh; z-index: 2000; opacity: 0.9;"></div>
+    <div name="texture-overlay" id="texture-overlay" class="w-100 position-absolute" style="min-height: 100vh; z-index: 3000;"></div>
     <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" style="z-index: 4000">
       <div class="carousel-indicators position-fixed" style="bottom: 1.2rem;">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="text-white text-center active mx-3" aria-current="true" aria-label="Slide 1" style="text-indent: 0px; width: fit-content">
@@ -40,10 +41,16 @@
           <section class="d-flex-centering flex-column position-relative">
             <div class="d-flex flex-column align-items-center" style="height: 100%; width: 70vw; max-width: 300px">
               <img class="w-100" src="./assets/images/logo.png" alt="logo" style="height: auto">
-              <h1 class="text-center my-5 h5">Eternal Blue Band Page</h1>
-              <a class="w-50 mb-5" href="https://open.spotify.com/artist/3X95Bzg0XrTT7N7KB7MXhY?si=2opJ_qBFRSuYOElM3VwLmQ">
-                <img class="w-100" src="./assets/images/spotify.png" alt="logo">
-              </a>
+              <h1 class="text-center my-3 h4 font-special">Eternal Blue</h1>
+              <h2 class="text-center my-3 h6">Where to find us</h2>
+                <div class="w-100 d-flex mb-5">
+                  <a class="w-50 px-2" href="https://open.spotify.com/artist/3X95Bzg0XrTT7N7KB7MXhY?si=2opJ_qBFRSuYOElM3VwLmQ">
+                    <img class="w-100" src="./assets/images/icons/spotify.png" alt="logo">
+                  </a>
+                  <a class="w-50 px-2" href="#">
+                    <img class="w-100" src="./assets/images/icons/instagram-follow.png" alt="logo">
+                  </a>
+              </div>
             </div>
           </section>
         </div>
@@ -80,7 +87,16 @@
                 
                 All the music is written and produced by Marius and 
                 Francine and is inspired by a plethora of bands and
-                artists.</p>
+                artists.
+              </p>
+                <div class="w-100 d-flex align-items-center">
+                  <a class="me-2 w-50" href="https://music.amazon.com/artists/B09DBDBY7Y/eternal-blue">
+                    <img class="w-100 mx-2" src="./assets/images/icons/amazon-music.png" alt="logo">
+                  </a>
+                  <a class="ms-2 w-50" href="https://music.apple.com/us/artist/eternal-blue/1582344089">
+                    <img class="w-100" src="./assets/images/icons/apple-music.png" alt="logo">
+                  </a>
+                </div>
             </div>
           </section>
         </div>
@@ -96,7 +112,7 @@
     </div>
 </div>
   <footer class="position-fixed w-100" style="bottom: 0; z-index: 4000">
-    <p class="text-center" style="font-family: calibri;">Marius Solheim&copy;2022</p>
+    <p class="text-center" style="font-family: calibri; font-size: 0.8rem;">Marius Solheim&copy;2022</p>
   </footer>
 </body>
 <script src="./js/index.js" type="module"></script>
