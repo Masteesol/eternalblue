@@ -245,6 +245,10 @@ source: https://cssloaders.github.io/
   background-color: transparent;
 }
 
+.bg-opacity-dark {
+  background-color: rgba(0, 0, 0, 0.204);
+}
+
 .text-primary {
   color: #3a5463 !important;
 }
