@@ -625,9 +625,10 @@ body {
   width: 100vw;
   margin: 0px;
   overflow-x: hidden;
-  background-image: url("../../assets/images/bg.jpg");
+  background-color: black;
+  background-image: url("../../assets/images/bg-2/desktop.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 section {
@@ -635,11 +636,17 @@ section {
   width: 100%;
 }
 
+/*
 #texture-overlay {
-  background-image: url("../assets/images/bg-layer.png");
-  background-size: 120%;
-  background-position: top;
-  background-repeat: no-repeat;
-  opacity: 0.2;
+    background-image: url("../assets/images/bg-layer.png");
+    background-size: 120%;
+    background-position: top;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}*/
+@media (max-width: 767.98px) {
+  body {
+    background-image: url("../../assets/images/bg-2/mobile.jpg");
+  }
 }
 /*# sourceMappingURL=styles.css.map */
