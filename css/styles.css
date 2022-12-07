@@ -19,16 +19,16 @@ body {
 .scroll-bar-style ::-webkit-scrollbar, .card-cut-primary ::-webkit-scrollbar, .card-cut-variant ::-webkit-scrollbar, html ::-webkit-scrollbar {
   height: 12px;
   width: 12px;
-  background: #3a5463;
+  background: black, 0.2;
 }
 
 .scroll-bar-style ::-webkit-scrollbar-thumb, .card-cut-primary ::-webkit-scrollbar-thumb, .card-cut-variant ::-webkit-scrollbar-thumb, html ::-webkit-scrollbar-thumb {
-  background: #919da4;
+  background: transparent;
   -webkit-border-radius: 1ex;
 }
 
 .scroll-bar-style ::-webkit-scrollbar-corner, .card-cut-primary ::-webkit-scrollbar-corner, .card-cut-variant ::-webkit-scrollbar-corner, html ::-webkit-scrollbar-corner {
-  background: #919da4;
+  background: transparent;
 }
 
 .scroll-bar-transparent {
@@ -444,16 +444,16 @@ source: https://cssloaders.github.io/
 .scroll-bar-style ::-webkit-scrollbar, .card-cut-primary ::-webkit-scrollbar, .card-cut-variant ::-webkit-scrollbar, html ::-webkit-scrollbar {
   height: 12px;
   width: 12px;
-  background: #3a5463;
+  background: black, 0.2;
 }
 
 .scroll-bar-style ::-webkit-scrollbar-thumb, .card-cut-primary ::-webkit-scrollbar-thumb, .card-cut-variant ::-webkit-scrollbar-thumb, html ::-webkit-scrollbar-thumb {
-  background: #919da4;
+  background: transparent;
   -webkit-border-radius: 1ex;
 }
 
 .scroll-bar-style ::-webkit-scrollbar-corner, .card-cut-primary ::-webkit-scrollbar-corner, .card-cut-variant ::-webkit-scrollbar-corner, html ::-webkit-scrollbar-corner {
-  background: #919da4;
+  background: transparent;
 }
 
 .scroll-bar-transparent {

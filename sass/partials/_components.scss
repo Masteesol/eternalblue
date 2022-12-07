@@ -6,14 +6,14 @@
     ::-webkit-scrollbar {
         height: 12px;
         width: 12px;
-        background: $primary;
+        background: rgb(0, 0, 0), 0.2;
     }
     ::-webkit-scrollbar-thumb {
-        background: $primary-variant;
+        background: transparent;
         -webkit-border-radius: 1ex;
     }
     ::-webkit-scrollbar-corner {
-        background: $primary-variant;
+        background: transparent;
     }
 }
 
